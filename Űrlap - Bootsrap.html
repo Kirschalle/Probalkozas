@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div>class="col-2"</div>
+      <div>class="col-8"
+        <h1>Rendelés</h1>
+        <form>
+          <fieldset>
+            <legend>Személyes adatok</legend>
+            <form>
+              <div class="form-group row">
+                <label for="inputName3" class="col-2 col-form-label">Név</label>
+                <div class="col-8">
+                  <input type="text" class="form-control" id="inputName3">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputEmail3" class="col-2 col-form-label">Email</label>
+                <div class="col-8">
+                  <input type="email" class="form-control" id="inputEmail3">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputAddress3" class="col-2 col-form-label">Szállítási cím</label>
+                <div class="col-8">
+                  <input type="text" class="form-control" id="inputAddress3">
+                </div>
+              </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Extra feltétek</legend>
+            <form>
+              <fieldset class="form-group">
+                <div class="row">
+                  <legend class="col-form-label col-2 pt-0">Feltétek</legend>
+                  <div class="col-8">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1"
+                        checked>
+                      <label class="form-check-label" for="gridRadios1">Nem kérek</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                      <label class="form-check-label" for="gridRadios2">Hagyma</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                      <label class="form-check-label" for="gridRadios3">Dupla sajt</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                      <label class="form-check-label" for="gridRadios4">Dupla hús</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                      <label class="form-check-label" for="gridRadios5">Extra zöldség</label>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+              <fieldset>
+                <div class="form-group row">
+                  <div class="col-8">
+                    <button type="submit" class="btn btn-primary">Megrendelem</button>
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <div class="col-2"></div>
+                  <div class="col-8">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck1">
+                      <label class="form-check-label" for="gridCheck1">Feliratkozás hírlevélre</label>
+                    </div>
+                  </div>
+                </div>
+            </form>
+          </fieldset>
+      </div>
+      <div> class="col-2"</div>
+    </div>
+  </div>
+</body>
+
+</html>
