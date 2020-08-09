@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+   <h1>Rendelés</h1>
+   <div class="forma-csoport">
+      <fieldset>
+         <legend>Személyes adatok</legend>
+         <form>
+            <div class="forma-csoport">
+               <label for="Név mező">Név:</label>
+               <input type="szöveg" class="forma-csoport" id="beviteli mező" rows="5" required>
+            </div>
+            <div class="forma-csoport">
+               <label for="email mező">Email:</label>
+               <input type="email" class="forma-csoport" id="beviteli mező" rows="5" placeholder="name@example.com"
+                  required>
+            </div>
+            <div class="forma-csoport">
+               <label for="Cím mező">Cím:</label>
+               <input type="address" class="forma-csoport" id="beviteli mező" rows="5"
+                  placeholder="isz, helyiség, utca, hsz., em., ajtó" required>
+            </div>
+            <div class="forma-csoport">
+               <label for="megjegyzések">Megjegyzés:</Label>
+               <textarea id="szöveg" name="comment" rows="5"></textarea>
+            </div>
+         </form>
+   </div>
+
+   <div class="Feltétek">
+      <fieldset>
+         <legend>Extra feltétek</legend>
+         <span>Feltét</span>
+         <div class feltét-csoport>
+            <input id="nothing" name="radio" type="radio" value="0">
+            <label for="nothing">Nem kérek</Label>
+         </div>
+         <div class forma-csoport>
+            <input id="sajt" name="radio" type="radio" value="300">
+            <label for="sajt">Sajt</Label>
+         </div>
+         <div class forma-csoport>
+            <input id="dupla sajt" name="radio" type="radio" value="600">
+            <label for="dupla sajt">Dupla sajt</Label>
+         </div>
+         <div class forma-csoport>
+            <input id="dupla hús" name="radio" type="radio" value="1000">
+            <label for="dupla hús">Dupla hús</Label>
+         </div>
+         <div class forma-csoport>
+            <input id="extra zöldség" name="radio" type="radio" value="600">
+            <label for="extra zöldség">Extra zöldség</Label>
+         </div>
+      </fieldset>
+   </div>
+   <div class="Adminisztráció">
+      <fieldset>
+         <legend>Adminisztráció</legend>
+         <span>Egyéb</span>
+         <div class feltét-csoport>
+            <input id="feltételek" name="checkbox" type="checkbox" value="0">
+            <label for="feltételek">Elfogadom a feltételeket</Label>
+         </div>
+         <div class forma-csoport>
+            <input id="adatvédelem" name="checkbox" type="checkbox" value="300">
+            <label for="adatvédelem">Tudomásul veszem az adatvédelemet</Label>
+         </div>
+         <div class forma-csoport>
+            <input id="hírlevél" name="checkbox" type="checkbox" value="600">
+            <label for="hírlevél">Feliratkozom a hírlevélre</Label>
+         </div>
+      </fieldset>
+   </div>
+</body>
+
+</html>
